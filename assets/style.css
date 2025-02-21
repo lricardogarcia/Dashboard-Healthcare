@@ -1,0 +1,88 @@
+// Importa fonte do SB Admin 2
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap');
+
+// Estilo geral
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+// Layout principal
+.container-fluid {
+    padding: 20px;
+}
+
+// Cabeçalho
+h1 {
+    color: #4e73df; // Azul padrão do SB Admin 2
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+// Cartões (cards)
+.card {
+    border: none; // Remove borda extra
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Mantém efeito suave
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 20px;
+
+    .card-title {
+        color: #5a5c69;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+}
+
+// Painel de resumo (summary)
+.summary-div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+// Texto principal
+.top-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5a5c69;
+}
+
+// Elementos de formulário
+.dropdown,
+.radioitems {
+    background-color: #f8f9fc; // Cor do SB Admin 2
+    border-radius: 5px;
+    padding: 10px;
+}
+
+// Gráficos
+.graph {
+    padding: 20px;
+    background-color: #f8f9fc;
+    border-radius: 8px;
+}
+
+// Slider
+.slider {
+    margin: 20px 0;
+}
+
+// Grid layout
+.row {
+    margin-bottom: 20px;
+}
+
+.col {
+    padding: 0 10px;
+}
+
+// Margens
+.mb-3 {
+    margin-bottom: 20px;
+}
